@@ -1,0 +1,149 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #f8f4e1;
+    color: #4e3620;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-bar {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.nav-bar-ul {
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    top: 0;
+    left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    background-color: #897853;
+    height: 7vh;
+    width: 100vw;
+    font-size: 2rem;
+}
+
+.nav-bar-items {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 12vw;
+}
+
+.nav-bar-link {
+    text-decoration: none;
+    color: #4e3620;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.nav-bar-link:hover {
+    opacity: 1;
+    font-weight: bolder;
+}
+
+@media (max-width: 800px) {
+    .nav-bar-ul {
+        font-size: 1.3rem;
+        height: 5vh;
+    }
+
+    .nav-bar-items {
+        margin-left: 0;
+    }
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1fr;
+    height: 100vh;
+}
+
+#welcome-section h1 {
+    font-size: 10rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body hr {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #4e3620;
+}
+
+#welcome-section h2 {
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    font-size: 5rem;
+}
+
+.title {
+    margin-bottom: 0;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-link {
+    text-decoration: none;
+    margin-bottom: 0;
+    color: inherit;
+}
+
+#profile-link:hover {
+    opacity: 0.8;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-top: 0;
+    max-width: 33vw;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-image {
+    height: 6vw;
+    align-self: center;
+}
+
+@media (max-width: 600px) {
+    .project-description {
+        max-width: 70vw;
+    }
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts {
+    margin-bottom: 0;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
